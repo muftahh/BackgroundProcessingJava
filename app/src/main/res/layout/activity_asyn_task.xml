@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".asyn_task"
+    android:padding="20dp">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start AT" />
+
+    <TextView
+        android:id="@+id/statusAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginVertical="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
